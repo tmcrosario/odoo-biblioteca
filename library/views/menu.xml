@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="library_main_menu"
+              name="Library"
+              sequence="20" />
+
+    <menuitem id="library_menu"
+              name="Library"
+              parent="library_main_menu"
+              sequence="5" />
+
+    <menuitem id="library_publications_list_menu"
+              name="Publications"
+              parent="library_menu"
+              sequence="5"
+              action="library_publications_list_action" />
+
+    <menuitem id="library_authors_list_menu"
+              name="Authors"
+              parent="library_menu"
+              sequence="10"
+              action="library_authors_list_action" />
+
+    <menuitem id="library_editorials_list_menu"
+              name="Editorials"
+              parent="library_menu"
+              sequence="15"
+              action="library_editorials_list_action" />
+
+</odoo>

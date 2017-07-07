@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- WINDOW ACTION -->
+    <record id="library_editorials_list_action"
+            model="ir.actions.act_window">
+        <field name="name">Editorials</field>
+        <field name="res_model">library.editorial</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree</field>
+        <field name="help"
+               type="html">
+            <p class="oe_view_nocontent_create">
+                Click to create a new editorial.
+            </p>
+            <p>
+                No registries were found.
+            </p>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="library.editorial_tree_view"
+            model="ir.ui.view">
+        <field name="name">library.editorial.tree</field>
+        <field name="model">library.editorial</field>
+        <field name="arch"
+               type="xml">
+            <tree editable="top"
+                  default_order="name asc">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>

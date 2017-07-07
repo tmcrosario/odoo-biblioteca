@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_library_publication_manager,library.publication.manager,model_library_publication,group_manager,1,1,1,1
+access_library_publication_user,library.publication.user,model_library_publication,group_user,1,0,0,0
+access_library_author_manager,library.author.manager,model_library_author,group_manager,1,1,1,1
+access_library_author_user,library.author.user,model_library_author,group_user,1,0,0,0
+access_library_editorial_manager,library.editorial.manager,model_library_editorial,group_manager,1,1,1,1
+access_library_editorial_user,library.editorial.user,model_library_editorial,group_user,1,0,0,0
