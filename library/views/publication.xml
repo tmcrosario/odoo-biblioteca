@@ -15,8 +15,7 @@
                 <field name="position" />
                 <field name="edition_year" />
                 <field name="publication_format" />
-                <field name="employee_id"
-                       invisible="True" />
+                <field name="employee_id" />
             </tree>
         </field>
     </record>
