@@ -8,7 +8,7 @@
         <field name="model">library.publication</field>
         <field name="arch"
                type="xml">
-            <tree colors="blue:employee_id!=False">
+            <tree decoration-info="employee_id!=False">
                 <field name="name" />
                 <field name="bookcase" />
                 <field name="shelf" />
