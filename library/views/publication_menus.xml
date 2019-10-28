@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="library_menu_publication"
+              name="Publications"
+              parent="library_menu_root"
+              sequence="5"
+              action="publication_action_form" />
+
+</odoo>

@@ -1,4 +1,3 @@
-
-import author
-import editorial
-import publication
+from . import author
+from . import editorial
+from . import publication

@@ -1,23 +1,25 @@
-
 {
     'name': 'TMC Biblioteca',
     'summary': 'Odoo module for TMC internal library management',
-    'version': '10.0.1.0.0',
+    'version': '13.0.1.0.0',
     'website': 'https://www.tmcrosario.gob.ar',
     'author': 'Tribunal Municipal de Cuentas - Municipalidad de Rosario',
     'license': 'AGPL-3',
-    'depends': [u'tmc'],
+    'depends': ['tmc'],
     'data': [
         'security/groups.xml',
         'security/ir.model.access.csv',
-        'views/publication.xml',
-        'views/authors.xml',
-        'views/editorial.xml',
-        'views/menu.xml'
+        'views/library_menus.xml',
+        'views/author_views.xml',
+        'views/author_menus.xml',
+        'views/editorial_views.xml',
+        'views/editorial_menus.xml',
+        'views/publication_views.xml',
+        'views/publication_menus.xml'
     ],
     'demo': [],
     'installable': True,
     'application': True,
     'auto_install': False,
     'qweb': [],
-}
+} # yapf: disable

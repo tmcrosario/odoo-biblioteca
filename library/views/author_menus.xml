@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="library_menu_author"
+              name="Authors"
+              parent="library_menu_root"
+              sequence="10"
+              action="author_action_form" />
+
+</odoo>
