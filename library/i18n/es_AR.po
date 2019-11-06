@@ -1,174 +1,174 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * library
-# 
-# Translators:
-# Liso <lisandrogallo@tmcrosario.gov.ar>, 2017
+# 	* library
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-11 13:49+0000\n"
-"PO-Revision-Date: 2017-07-11 13:49+0000\n"
-"Last-Translator: Liso <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
-"Language-Team: Spanish (Argentina) (https://www.transifex.com/tmcrosario/teams/73663/es_AR/)\n"
+"POT-Creation-Date: 2019-11-06 11:58+0000\n"
+"PO-Revision-Date: 2019-11-06 08:59-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es_AR\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_active
+#: model:ir.model.fields,field_description:library.field_library_publication__active
 msgid "Active"
 msgstr "Activo"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_author_ids
-msgid "Author ids"
-msgstr "Autor(es)"
+#: model:ir.model,name:library.model_library_author
+#: model:ir.model.fields,field_description:library.field_library_publication__author_ids
+msgid "Author"
+msgstr "Autor"
 
 #. module: library
-#: model:ir.actions.act_window,name:library.library_authors_list_action
-#: model:ir.ui.menu,name:library.library_authors_list_menu
+#: model:ir.actions.act_window,name:library.author_action_form
+#: model:ir.ui.menu,name:library.library_menu_author
 msgid "Authors"
 msgstr "Autores"
 
 #. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__bibliorato
 msgid "Bibliorato"
-msgstr ""
+msgstr "Bibliorato"
 
 #. module: library
 #: model:ir.module.category,name:library.module_category_library
 msgid "Biblioteca"
-msgstr ""
+msgstr "Biblioteca"
 
 #. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__book
 msgid "Book"
 msgstr "Libro"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_bookcase
+#: model:ir.model.fields,field_description:library.field_library_publication__bookcase
 msgid "Bookcase"
 msgstr "Armario"
 
 #. module: library
-#: model:ir.actions.act_window,help:library.library_authors_list_action
+#: model_terms:ir.actions.act_window,help:library.author_action_form
 msgid "Click to create a new author."
-msgstr "Click para cargar un nuevo autor."
+msgstr "Haga clic para crear un nuevo autor."
 
 #. module: library
-#: model:ir.actions.act_window,help:library.library_editorials_list_action
+#: model_terms:ir.actions.act_window,help:library.editorial_action_form
 msgid "Click to create a new editorial."
-msgstr "Click para cargar una nueva editorial."
+msgstr "Haga clic para crear un nuevo editorial."
 
 #. module: library
-#: model:ir.actions.act_window,help:library.library_publications_list_action
+#: model_terms:ir.actions.act_window,help:library.publication_action_form
 msgid "Click to create a new publication."
-msgstr "Click para cargar una nueva publicación."
+msgstr "Haga clic para crear una nueva publicación."
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_comments
-#: model:ir.ui.view,arch_db:library.view_publication_form
+#: model:ir.model.fields,field_description:library.field_library_publication__comments
+#: model_terms:ir.ui.view,arch_db:library.publication_view_form
 msgid "Comments"
 msgstr "Comentarios"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_create_uid
-#: model:ir.model.fields,field_description:library.field_library_editorial_create_uid
-#: model:ir.model.fields,field_description:library.field_library_publication_create_uid
+#: model:ir.model.fields,field_description:library.field_library_author__create_uid
+#: model:ir.model.fields,field_description:library.field_library_editorial__create_uid
+#: model:ir.model.fields,field_description:library.field_library_publication__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_create_date
-#: model:ir.model.fields,field_description:library.field_library_editorial_create_date
-#: model:ir.model.fields,field_description:library.field_library_publication_create_date
+#: model:ir.model.fields,field_description:library.field_library_author__create_date
+#: model:ir.model.fields,field_description:library.field_library_editorial__create_date
+#: model:ir.model.fields,field_description:library.field_library_publication__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado el"
 
 #. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__digital
 msgid "Digital"
-msgstr ""
+msgstr "Digital"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_display_name
-#: model:ir.model.fields,field_description:library.field_library_editorial_display_name
-#: model:ir.model.fields,field_description:library.field_library_publication_display_name
+#: model:ir.model.fields,field_description:library.field_library_author__display_name
+#: model:ir.model.fields,field_description:library.field_library_editorial__display_name
+#: model:ir.model.fields,field_description:library.field_library_publication__display_name
 msgid "Display Name"
 msgstr "Nombre"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_edition
-#: model:ir.ui.view,arch_db:library.view_publication_form
+#: model:ir.model.fields,field_description:library.field_library_publication__edition
+#: model_terms:ir.ui.view,arch_db:library.publication_view_form
 msgid "Edition"
 msgstr "Edición"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_edition_year
-msgid "Edition year"
+#: model:ir.model.fields,field_description:library.field_library_publication__edition_year
+msgid "Edition Year"
 msgstr "Año de Edición"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_editorial_id
-msgid "Editorial id"
+#: model:ir.model,name:library.model_library_editorial
+#: model:ir.model.fields,field_description:library.field_library_publication__editorial_id
+msgid "Editorial"
 msgstr "Editorial"
 
 #. module: library
-#: model:ir.actions.act_window,name:library.library_editorials_list_action
-#: model:ir.ui.menu,name:library.library_editorials_list_menu
+#: model:ir.actions.act_window,name:library.editorial_action_form
+#: model:ir.ui.menu,name:library.library_menu_editorial
 msgid "Editorials"
 msgstr "Editoriales"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_id
-#: model:ir.model.fields,field_description:library.field_library_editorial_id
-#: model:ir.model.fields,field_description:library.field_library_publication_id
+#: model:ir.model.fields,field_description:library.field_library_author__id
+#: model:ir.model.fields,field_description:library.field_library_editorial__id
+#: model:ir.model.fields,field_description:library.field_library_publication__id
 msgid "ID"
 msgstr ""
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author___last_update
-#: model:ir.model.fields,field_description:library.field_library_editorial___last_update
-#: model:ir.model.fields,field_description:library.field_library_publication___last_update
+#: model:ir.model.fields,field_description:library.field_library_author____last_update
+#: model:ir.model.fields,field_description:library.field_library_editorial____last_update
+#: model:ir.model.fields,field_description:library.field_library_publication____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Ultima modificación en"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_write_uid
-#: model:ir.model.fields,field_description:library.field_library_editorial_write_uid
-#: model:ir.model.fields,field_description:library.field_library_publication_write_uid
+#: model:ir.model.fields,field_description:library.field_library_author__write_uid
+#: model:ir.model.fields,field_description:library.field_library_editorial__write_uid
+#: model:ir.model.fields,field_description:library.field_library_publication__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultima actualización por"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_write_date
-#: model:ir.model.fields,field_description:library.field_library_editorial_write_date
-#: model:ir.model.fields,field_description:library.field_library_publication_write_date
+#: model:ir.model.fields,field_description:library.field_library_author__write_date
+#: model:ir.model.fields,field_description:library.field_library_editorial__write_date
+#: model:ir.model.fields,field_description:library.field_library_publication__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Ultima actualización en"
 
 #. module: library
-#: model:ir.ui.menu,name:library.library_main_menu
-#: model:ir.ui.menu,name:library.library_menu
+#: model:ir.ui.menu,name:library.library_menu_root
 msgid "Library"
 msgstr "Biblioteca"
 
 #. module: library
-#: model:ir.ui.view,arch_db:library.view_publication_form
+#: model_terms:ir.ui.view,arch_db:library.publication_view_form
 msgid "Loan"
 msgstr "Préstamo"
 
 #. module: library
-#: model:ir.ui.view,arch_db:library.view_publication_form
+#: model_terms:ir.ui.view,arch_db:library.publication_view_form
 msgid "Location"
 msgstr "Ubicación"
 
 #. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__magazine
 msgid "Magazine"
 msgstr "Revista"
 
@@ -178,56 +178,46 @@ msgid "Manager"
 msgstr "Responsable"
 
 #. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__manual
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_name
-#: model:ir.model.fields,field_description:library.field_library_editorial_name
+#: model:ir.model.fields,field_description:library.field_library_author__name
+#: model:ir.model.fields,field_description:library.field_library_editorial__name
 msgid "Name"
 msgstr "Nombre"
 
 #. module: library
-#: model:ir.actions.act_window,help:library.library_authors_list_action
-#: model:ir.actions.act_window,help:library.library_editorials_list_action
-#: model:ir.actions.act_window,help:library.library_publications_list_action
-msgid "No registries were found."
-msgstr "No se encontraron registros."
-
-#. module: library
-#: model:ir.ui.view,arch_db:library.view_publication_form
+#: model:ir.model.fields,field_description:library.field_library_publication__office_id
+#: model_terms:ir.ui.view,arch_db:library.publication_view_form
 msgid "Office"
 msgstr "Oficina"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_office_id
-msgid "Office id"
-msgstr "Oficina"
-
-#. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__other
 msgid "Other"
 msgstr "Otro"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_position
+#: model:ir.model.fields,field_description:library.field_library_publication__position
 msgid "Position"
 msgstr "Posición"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_publication_format
-msgid "Publication format"
+#: model:ir.model,name:library.model_library_publication
+#: model:ir.model.fields,field_description:library.field_library_author__publication_ids
+msgid "Publication"
+msgstr "Publicación"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_publication__publication_format
+msgid "Publication Format"
 msgstr "Formato"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_author_publication_ids
-msgid "Publication ids"
-msgstr "Publicaciones"
-
-#. module: library
-#: model:ir.actions.act_window,name:library.library_publications_list_action
-#: model:ir.ui.menu,name:library.library_publications_list_menu
+#: model:ir.actions.act_window,name:library.publication_action_form
+#: model:ir.ui.menu,name:library.library_menu_publication
 msgid "Publications"
 msgstr "Publicaciones"
 
@@ -237,27 +227,27 @@ msgid "Read Only"
 msgstr "Sólo Lectura"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_employee_id
+#: model:ir.model.fields,field_description:library.field_library_publication__employee_id
 msgid "Responsible"
 msgstr "Responsable"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_shelf
+#: model:ir.model.fields,field_description:library.field_library_publication__shelf
 msgid "Shelf"
 msgstr "Estante"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_stock_number
-msgid "Stock number"
+#: model:ir.model.fields,field_description:library.field_library_publication__stock_number
+msgid "Stock Number"
 msgstr "Nº de Inventario"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_name
+#: model:ir.model.fields,field_description:library.field_library_publication__name
 msgid "Title"
 msgstr "Título"
 
 #. module: library
-#: model:ir.model.fields,field_description:library.field_library_publication_tome
+#: model:ir.model.fields,field_description:library.field_library_publication__tome
 msgid "Tome"
 msgstr "Tomo"
 
@@ -267,21 +257,6 @@ msgid "User"
 msgstr "Usuario"
 
 #. module: library
-#: selection:library.publication,publication_format:0
+#: model:ir.model.fields.selection,name:library.selection__library_publication__publication_format__work
 msgid "Work"
-msgstr "Trabajos de Jornadas y/o Congresos"
-
-#. module: library
-#: model:ir.model,name:library.model_library_author
-msgid "library.author"
-msgstr ""
-
-#. module: library
-#: model:ir.model,name:library.model_library_editorial
-msgid "library.editorial"
-msgstr ""
-
-#. module: library
-#: model:ir.model,name:library.model_library_publication
-msgid "library.publication"
-msgstr ""
+msgstr "Trabajos de Jornadas y/o Congreso"
