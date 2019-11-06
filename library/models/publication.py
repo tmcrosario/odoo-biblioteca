@@ -4,6 +4,7 @@ from odoo import api, fields, models
 class Publication(models.Model):
 
     _name = 'library.publication'
+    _description = 'Publication'
 
     _publication_formats_ = [('book', 'Book'), ('magazine', 'Magazine'),
                              ('digital', 'Digital'),
