@@ -8,11 +8,8 @@
         <field name="res_model">library.publication</field>
         <field name="help"
                type="html">
-            <p class="oe_view_nocontent_create">
+            <p class="o_view_nocontent_smiling_face">
                 Click to create a new publication.
-            </p>
-            <p>
-                No registries were found.
             </p>
         </field>
     </record>
